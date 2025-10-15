@@ -3,7 +3,7 @@ import java.util.*;
 
 public class CsvTestRunner {
     public static void main(String[] args) throws Exception {
-        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Admin\\Documents\\KiemThu\\src\\testcase_kiem thu dong du lieu.csv"));
+        List<String> lines = Files.readAllLines(Paths.get("C:\\Users\\Admin\\Documents\\KiemThu\\src\\testcase_kiem thu dong dieu khien.csv"));
 
         for (int i = 1; i < lines.size(); i++) { // bỏ qua header
             String[] parts = lines.get(i).split(",");
