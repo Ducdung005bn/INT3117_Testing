@@ -1,6 +1,6 @@
-nights,guests
--1,0
-14,8
-1,1
-14,4
-8,2
+nights,guests,expected output
+-1,0,ERROR: Số đêm và số khách phải lớn hơn hoặc bằng 1
+14,8,ERROR: Phòng chỉ được thuê tối đa 15 đêm và chứa tối đa 7 khách
+1,1,1155000
+14,4,16978500
+8,2,7854000
